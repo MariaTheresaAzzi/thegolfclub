@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footercolor{
+    background-color: #292929;
+}
+
+.greenbg{
+    background-color: #497413;
+}
+
+.green{
+    color: #497413;
+}
+
+.bg-slate-200{
+    background-color: #EBEBEB;
+}

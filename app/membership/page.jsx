@@ -1,10 +1,13 @@
 import React from 'react'
+import Abouthero from '../components/abouthero'
+import Member from '../components/member'
 
 const Membership = () => {
   return (
-    <div>Membership
-    
-    </div>
+    <>
+    <Abouthero title="The Gulf Club Memberships"/>
+    <Member/>
+    </>
   )
 }
 

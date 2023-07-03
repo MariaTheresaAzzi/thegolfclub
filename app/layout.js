@@ -1,3 +1,4 @@
+import Footer from './components/footer'
 import Navbar from './components/navbar'
 import './globals.css'
 import { Alegreya } from 'next/font/google'
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {children}
-        <div>Footer</div>
+        <Footer />
         </body>
     </html>
   )

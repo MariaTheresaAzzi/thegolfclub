@@ -1,8 +1,9 @@
 import React from 'react'
+import Conta from '../components/conta'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <Conta/>
   )
 }
 

@@ -1,8 +1,13 @@
 import React from 'react'
+import Abouthero from '../components/abouthero'
+import Abouthis from '../components/abouthis'
 
 const History = () => {
   return (
-    <div>History</div>
+    <>
+    <Abouthero title="About Our History" />
+    <Abouthis/>
+    </>
   )
 }
 

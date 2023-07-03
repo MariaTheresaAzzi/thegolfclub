@@ -1,8 +1,13 @@
 import React from 'react'
+import Abouthero from '../components/abouthero'
+import Aboutimg from '../components/aboutimg'
 
 const Aboutus = () => {
   return (
-    <div>Aboutus</div>
+    <>
+    <Abouthero title="About Our Club" />
+    <Aboutimg />
+    </>
   )
 }
 

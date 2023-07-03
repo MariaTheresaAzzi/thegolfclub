@@ -1,8 +1,9 @@
 import React from 'react'
+import Teeform from '../components/teeform'
 
 const Book = () => {
   return (
-    <div>Book</div>
+    <Teeform/>
   )
 }
 
